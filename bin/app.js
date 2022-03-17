@@ -9,11 +9,11 @@ const config = {
     gop_cache: true,
     ping: 30,
     ping_timeout: 60,
-    // ssl: {
-    //   port: 443,
-    //   key: __dirname+'/privatekey.pem',
-    //   cert: __dirname+'/certificate.pem',
-    // }
+    ssl: {
+       port: 443,
+       key: __dirname+'/privatekey.pem',
+       cert: __dirname+'/certificate.pem',
+     }
   },
   http: {
     port: 8000,
